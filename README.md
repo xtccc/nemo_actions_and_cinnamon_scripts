@@ -6,7 +6,7 @@ Also included is a [GTK over-ride](https://github.com/smurphos/nemo_actions_and_
 
 # 我的右键修改为:在当前目录打开terminator终端终结者
 
-    filename:terminator.nemo_action
+filename:terminator.nemo_action
     [Nemo Action]
     Active=true
     Name=右键打开终端终结者
