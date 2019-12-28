@@ -4,6 +4,25 @@ A collection of custom context menu actions for the Nemo file manager, along wit
 
 Also included is a [GTK over-ride](https://github.com/smurphos/nemo_actions_and_cinnamon_scripts#miscellaneous-tweaks) file to increase the width of GTK application scrollbars, improve the visibility of labels on desktop icons, and improve the visibility of text on the cinnamon lock-screen / screen-saver.
 
+# 我的右键修改为:在当前目录打开terminator终端终结者
+
+    filename:terminator.nemo_action
+    [Nemo Action]
+    Active=true
+    Name=右键打开终端终结者
+    Comment=右键打开终端终结者
+    Exec=terminator --working-directory=%F
+    Selection=None
+    Extensions=any
+    Dependencies=
+    EscapeSpaces=true
+
+
+
+
+
+
+
 # Nemo Actions
 
 Nemo actions add additional context menu items to the right click menu in the Nemo file manager and on the Cinnamon desktop.
